@@ -10,6 +10,39 @@
 
 [Clase 3 Proceso de pruebas del software y los estándares internacionales](#Clase-3-Proceso-de-pruebas-del-software-y-los-estándares-internacionales)
 
+[Etapas del desarrollo de software](#Etapas-del-desarrollo-de-software)
+
+[Revision de las pruebas](#Revision-de-las-pruebas)
+
+[Clase 4 Ciclo de vida del software](#Clase-4-Ciclo-de-vida-del-software)
+
+[Clase 5 Proceso de pruebas del software: Calidad y Defectos](#Clase-5-Proceso-de-pruebas-del-software:-Calidad-y-Defectos)
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+
 ## Clase 1 Introducción
 
 En este curso veremos diferentes formas, tips y estrategias de realizar pruebas de software. Todas las técnicas te ayudarán a mejorar la calidad de tu software.
@@ -85,3 +118,94 @@ Es necesario tener muy bien definidas estas etapas para evitar re-procesos y que
 - Verificar especificaciones y necesidades del cliente
 
 ![assets/img6.png](assets/img6.png)
+
+Las certificaciones pueden ser aplicadas a cualquier tipo de industria, automotriz, farmaceutica, ventas, salud, personas y empresas en general
+
+![assets/img7.png](assets/img7.png)
+
+y cada una de este tipo de industrias lleva diferentes tipos de pruebas 
+
+![assets/img8.png](assets/img8.png)
+
+No solo se deben implementar certificaciones en las empresas porque muchas veces esto no significa que cumplan con los estandares de calidad, se debe velar por cumplir y mantener estandares que promuevan el buen desarrollo de la empresa
+
+## Clase 4 Ciclo de vida del software
+
+A lo largo del ciclo de vida del software se realizan distintas pruebas para garantizar que este cumpla con los requerimientos para los que fue diseñado y de la misma forma se encuentren procesos de mejora y optimización a medida que se desarrolla el software.
+
+- Es necesario hacer pruebas en todas las fases del desarrollo de software ya que un error encontrado en una etapa tardía puede generar costos muy elevados.
+
+- Errores detectados lo antes posible reducen los costos y son mucho más fáciles de corregir.
+
+- El ciclo de vida permite que los errores se detecten lo antes posible y por lo tanto, permite a los desarrolladores concentrarse en la calidad del software, en los plazos de implementación y en los costos asociados.
+
+El ciclo de vida básico de un software consta de los siguientes procedimiento
+
+![assets/img9.jpg](assets/img9.jpg)
+
+1. Definición de objetivos
+
+    En esta fase se define el alcance general del software y su papel dentro de una estrategia global o dentro del ecosistema que va a funcionar.
+
+2. Análisis de los requisitos y su viabilidad
+
+    Se trata de recopilar la mayor cantidad de información posible para evaluar la viabilidad del producto, encontrar posibles restricciones y analizar todos los requisitos del cliente.
+
+3. Diseño
+
+    Alto nivel: Se trata de realizar un diseño básico que valide la arquitectura de la aplicación.
+    Bajo nivel: Es una definición detallada de la estructura de la aplicación basada en el diseño general.
+
+4. Programación
+
+    Es la implementación de un lenguaje de programación para crear las funciones definidas durante la etapa de diseño.
+
+5. Pruebas de verificación
+
+    Aunque en todas las fases anteriores se hacen pruebas en esta fase se cubren: pruebas de componentes, integrales y de sistema.
+
+6. Prueba beta (o validación)
+
+    Se hace para garantizar que el software cumple con las especificaciones originales o también se hacen las pruebas de aceptación.
+
+7. Implementación
+
+    Se realiza una prueba del sistema implementado para encontrar posibles fallas en la Implementación.
+
+8. Mantenimiento
+
+    Se hace para todos los procedimientos correctivos (mantenimiento correctivo) y a las actualizaciones secundarias del software (mantenimiento continuo), junto con la actualización de las pruebas.
+
+Si hacemos las pruebas durante cada fase del ciclo de vida del software tendremos al final del ciclo un producto validado y robusto de acuerdo a las necesidades del cliente
+
+## Clase 5 Proceso de pruebas del software: Calidad y Defectos
+
+![assets/img10.png](assets/img10.png)
+
+La calidad es una percepción entre lo deseado, analizado y lo que vamos a entregar. La calidad la define el cliente, si esa persona esta satisfecha con lo entregado hasta ahí llega la calidad.
+
+Los estandares de la IEEE(Insitute of Electrical and Electronics Engineers) (Instituto de Ingenieros Eléctricos y Electrónicos) asociación técnico-profesional mundial dedicada a la estandarización, entre otras cosas. Es la mayor asociación internacional, sin ánimo de lucro, formada por profesionales de las nuevas tecnologías.) forman parte de la documentacion y es la manera en la que define el cumplimiento de requisitos, necesidades o expectativas del cliente
+
+![assets/img11.png](assets/img11.png)
+
+Se hace enfasis en el entendimiento y necesidades del cliente. Si los procesos de pruebas de software no son eficientes, en cada una de las fases va a empezar a haber defectos
+
+![assets/img12.png](assets/img12.png)
+
+Dentro de las etapas existe una planificacion estandar que van a variar respecto a necesidades y tiempo del proyecto
+
+![assets/img13.png](assets/img13.png)
+
+- Verificación: Es ir en cada etapa revisando que se cumpla lo propuesto por el cliente.
+
+- Validación: Antes de entregar al cliente, validamos que efectivamente el conjunto de requerimientos esta siendo cumplido con lo entregado.
+
+- Anomalía: Cualquier condición insatisfactoria
+
+- Defecto: Un problema que se reproduce una y otra vez, no desempeña funciones
+
+- Fallo: Pueden ser situaciones no asociadas al software desarrollado, incapacidad dentro de márgenes
+
+- Error: Acción humana incorrecta
+
+![assets/img14.png](assets/img14.png)
