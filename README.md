@@ -2,19 +2,21 @@
 
 **Contenido**
 
-[Clase 1 - Introducción](#Clase-1-Introducción])
+[Clase 1 Introducción](#Clase-1-Introducción])
 
-[Clase 2 - ¿Qué son las pruebas y por qué deberíamos hacerlas?](#Clase-2-¿-Qué-son-las-pruebas-y-por-qué-deberíamos-hacerlas?])
+[Clase 2 ¿Qué son las pruebas y por qué deberíamos hacerlas?](#Clase-2-¿Qué-son-las-pruebas-y-por-qué-deberíamos-hacerlas?])
 
 [¿Qué son las pruebas?](¿Qué-son-las-pruebas?)
 
-## Clase 1 - Introducción
+[Clase 3 Proceso de pruebas del software y los estándares internacionales](#Clase-3-Proceso-de-pruebas-del-software-y-los-estándares-internacionales)
+
+## Clase 1 Introducción
 
 En este curso veremos diferentes formas, tips y estrategias de realizar pruebas de software. Todas las técnicas te ayudarán a mejorar la calidad de tu software.
 
 Principios del testing moderno y trabajo en equipo para implementar pruebas desde la perspectiva del tester y desarrollador
 
-## Clase 2 - ¿Qué son las pruebas y por qué deberíamos hacerlas?
+## Clase 2 ¿Qué son las pruebas y por qué deberíamos hacerlas?
 
 ¿Cuántas veces hemos sido usuarios de alguna app móvil y falla? ¿Cuántas veces hemos sido parte del desarrollo de un producto y el retrabajo se desborda por todas las fallas o defectos que contiene?.
 
@@ -38,8 +40,48 @@ Las pruebas son una manera de explorar, experimentar, entenderlo, entre menos en
 
 Tres aspectos a considerar:
 
-- Tenemos un problema o el resultado no es el esperado
+![assets/img3.png](assets/img3.png)
 
-- Nuestros costo se esta volviendo muy alto.
+Es necesario entender completamente aunque se tengan las mejores practicas de desarrollo o de pruebas para evitar que los defectos y errores se conviertan en re-trabajo y multiplicar los defectos o convertirlo en bola de nieve, aqui uno de los aspectos mas importantes 
 
-- Implicaciones legales o de estándares tecnológicos.
+- Estimar bien
+
+- Entender el producto
+
+- Saber quien es el cliente
+
+- Comunicacion con el equipo de desarrollo en los diferentes niveles y subniveles para que se pueda trabajar de una manera armoniosa y adecuada. Con esto se evita recurrir en reprocesos y estar apagando incendios
+
+## Clase 3 Proceso de pruebas del software y los estándares internacionales
+
+### Etapas del desarrollo de software
+
+![assets/img4.png](assets/img4.png)
+
+- Que es Metodologia 
+
+Es la parte en donde se establecen criterios o estrategias de como se va a llevar a cabo las pruebas, quien es el responsable, como se debe entregar el material, Etc.
+
+- Recursos
+
+Aunque se quieran hacer pruebas y no se esta preparado con el tiempo esas carencias se van a mostrar como defectos
+
+- Herramientas
+
+Contar con las herramientas adecuadas permiten de alguna forma acelerar el trabajo como tester en cuanto a la identificacion de problemas, documentación y comunicación
+
+Es necesario tener muy bien definidas estas etapas para evitar re-procesos y que todo el equipo entienda la finalidad del mismo 
+
+![assets/img5.png](assets/img5.png)
+
+### Revision de las pruebas
+
+- Definir la falta de calidad del equipo
+
+- Detectar y corregir la falta de calidad
+
+- Calidad del proceso
+
+- Verificar especificaciones y necesidades del cliente
+
+![assets/img6.png](assets/img6.png)
