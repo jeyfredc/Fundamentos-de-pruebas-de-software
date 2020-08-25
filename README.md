@@ -1,4 +1,5 @@
 # Fundamentos-de-pruebas-de-software
+<<<<<<< HEAD
 
 **Contenido**
 
@@ -209,3 +210,6 @@ Dentro de las etapas existe una planificacion estandar que van a variar respecto
 - Error: Acción humana incorrecta
 
 ![assets/img14.png](assets/img14.png)
+=======
+Curso de Fundamentos de pruebas de software realizado en Platzi
+>>>>>>> f528b194fdd7460bdf41bd517dd4a4466f4c7ce5
