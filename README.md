@@ -42,6 +42,40 @@
 
 [Clase 8 Presupuesto, Recursos, Tiempo y Actividades Clave](#Clase-8-Presupuesto,-Recursos,-Tiempo-y-Actividades-Clave)
 
+[Etapa de Analisis](#Etapa-de-Analisis)
+
+[Etapa de Diseño](#Etapa-de-Diseño)
+
+[Etapa de codigo](#Etapa-de-codigo)
+
+[Etapa de pruebas](#Etapa-de-pruebas)
+
+[Clase 9 Estrategia de pruebas](#Clase-9-Estrategia-de-pruebas)
+
+[Escenarios y Contextos](#Escenarios-y-Contextos)
+
+[Herramienta para organizar ideas](#Herramienta-para-organizar-ideas)
+
+[¿Que problema tenemos?](#¿Que-problema-tenemos?)
+
+[Clase 10 Testing en desarrollo de software](#Clase-10-Testing-en-desarrollo-de-software)
+
+[¿Que es testing?](#¿Que-es-testing?)
+
+[¿Que es cheking?](#¿Que-es-cheking?)
+
+[Errores comunes durante la ejecución](#Errores-comunes-durante-la-ejecución)
+
+[Clase 11 Testing ágil](#Clase-11-Testing-ágil)
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
 
 ## Clase 1 Introducción
 
@@ -308,4 +342,109 @@ Los costos tambien pueden llegar a incrementar
 
 ![assets/img19.png](assets/img19.png)
 
-![assets/img11.png](assets/img11.png)
+![assets/img12.png](assets/img12.png)
+
+## Etapa de Analisis
+
+- Revision con el cliente y equipo
+
+- Documentacion
+
+- Pruebas de requerimientos del cliente
+
+- Alcance y necesidad del cliente y como puedo empezar a abordar los problemas que se puedan llegar a aparecer por mas ambiguos que sean y tambien como voy a confirmar que un requerimiento se cumpla
+
+## Etapa de Diseño
+
+- Criterios visuales que espera el cliente
+
+- Que espera en la funcionalidad combinado con el diseño del producto
+
+- Alertas del producto al hacer check de manera correcta o incorrecta
+
+## Etapa de codigo
+
+- Revision e implementacion de modulos, funciones o bases de datos
+
+- Verificacion de lo que esta en el backend y en lo posible si existe el Frontend
+
+- Revision de las mejores practicas para la implementacion y desarrollo del software
+
+## Etapa de pruebas
+
+- Pruebas de transmision de datos en distintos dispositivos
+
+- Confirmacion de los requerimientos del cliente a traves de la validacion y verificacion
+
+- Pruebas de aceptacion donde el usuario final acepta el producto requerido pero se debe tener que cuenta que antes de entregar al cliente final se tuvieron que haber hecho todas las pruebas posibles en las anteriores etapas
+
+## Clase 9 Estrategia de pruebas
+
+Son aquellas que nos permiten saber por donde comenzar 
+
+![assets/img20.png](assets/img20.png)
+
+### Escenarios y Contextos
+
+- Seguridad
+
+- Arquitectura
+
+- Performance
+
+- Usabilidad
+
+- Escalabilidad
+
+### Herramienta para organizar ideas
+
+https://mindmup.com 
+
+![assets/img21.png](assets/img21.png)
+
+### ¿Que problema tenemos?
+
+![assets/img22.png](assets/img22.png)
+
+## Clase 10 Testing en desarrollo de software
+
+### ¿Que es testing?
+
+Es la exploración de una idea, aprender a conocer como sucede un flujo, como se generan datos, como se llena un formulario y genere nuevos resultados
+
+### ¿Que es cheking?
+
+Es cuando se sabe que ya sucede algo y se verifica que sigue pasando
+
+![assets/img23.png](assets/img23.png)
+
+- Solo se ejecutan si ... sucede algo
+
+- Se ejecutan cada que ... libere
+
+- Se ejecutan de manera programada 
+
+### Errores comunes durante la ejecución
+
+![assets/img24.png](assets/img24.png)
+
+- Pruebas duplicadas: Al no tener una buena organización o comunicación con el equipo, la cobertura de pruebas puede ser duplicada, por ejemplo que algún otro miembro ya probó
+
+- Pruebas similares: A veces se pueden crear pruebas que tienen que ver con el mismo flujo.
+
+- Pruebas sin valor agregado: Aquellas que no están asociadas al negocio, se debe priorizar siempre.
+
+- Pruebas caducadas: Se refiere a la tecnología por ejemplo que se esté usando ya que como sabemos se suelen ir actualizando.
+
+Cuando logramos distinguir correctamente entre pruebas y verificación es cuando entra la automatización de pruebas, con ella se usa un software especial para controlar y comparar los resultados obtenidos de los esperados, es entonces una verificación repetitiva y automatizada.
+
+La automatización de pruebas consiste en el uso de software especial para controlar la ejecución de pruebas y la comparación entre los resultados obtenidos y los resultados esperados. 
+
+Sin embaro, se trata de un checking repetitivo y automatizado.
+
+![assets/img25.png](assets/img25.png)
+
+![assets/img26.png](assets/img26.png)
+
+## Clase 11 Testing ágil
+
