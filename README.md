@@ -136,9 +136,9 @@
 
 [Clase 25 Técnicas de depuración](#Clase-25-Técnicas-de-depuración)
 
-[]()
+[Clase 26 Pruebas de verificación](#Clase-26-Pruebas-de-verificación)
 
-[]()
+[Clase 27 Automatización de pruebas](#Clase-27-Automatización-de-pruebas)
 
 []()
 
@@ -306,17 +306,17 @@ Dentro de las etapas existe una planificacion estandar que van a variar respecto
 
 ![assets/img13.png](assets/img13.png)
 
-- Verificación: Es ir en cada etapa revisando que se cumpla lo propuesto por el cliente.
+- **Verificación:** Es ir en cada etapa revisando que se cumpla lo propuesto por el cliente.
 
-- Validación: Antes de entregar al cliente, validamos que efectivamente el conjunto de requerimientos esta siendo cumplido con lo entregado.
+- **Validación:** Antes de entregar al cliente, validamos que efectivamente el conjunto de requerimientos esta siendo cumplido con lo entregado.
 
-- Anomalía: Cualquier condición insatisfactoria
+- **Anomalía:** Cualquier condición insatisfactoria
 
-- Defecto: Un problema que se reproduce una y otra vez, no desempeña funciones
+- **Defecto:** Un problema que se reproduce una y otra vez, no desempeña funciones
 
-- Fallo: Pueden ser situaciones no asociadas al software desarrollado, incapacidad dentro de márgenes
+- **Fallo:** Pueden ser situaciones no asociadas al software desarrollado, incapacidad dentro de márgenes
 
-- Error: Acción humana incorrecta
+- **Error:** Acción humana incorrecta
 
 ![assets/img14.png](assets/img14.png)
 
@@ -504,13 +504,13 @@ Es cuando se sabe que ya sucede algo y se verifica que sigue pasando
 
 ![assets/img24.png](assets/img24.png)
 
-- Pruebas duplicadas: Al no tener una buena organización o comunicación con el equipo, la cobertura de pruebas puede ser duplicada, por ejemplo que algún otro miembro ya probó
+- **Pruebas duplicadas:** Al no tener una buena organización o comunicación con el equipo, la cobertura de pruebas puede ser duplicada, por ejemplo que algún otro miembro ya probó
 
-- Pruebas similares: A veces se pueden crear pruebas que tienen que ver con el mismo flujo.
+- **Pruebas similares:** A veces se pueden crear pruebas que tienen que ver con el mismo flujo.
 
-- Pruebas sin valor agregado: Aquellas que no están asociadas al negocio, se debe priorizar siempre.
+- **Pruebas sin valor agregado:** Aquellas que no están asociadas al negocio, se debe priorizar siempre.
 
-- Pruebas caducadas: Se refiere a la tecnología por ejemplo que se esté usando ya que como sabemos se suelen ir actualizando.
+- **Pruebas caducadas:** Se refiere a la tecnología por ejemplo que se esté usando ya que como sabemos se suelen ir actualizando.
 
 Cuando logramos distinguir correctamente entre pruebas y verificación es cuando entra la automatización de pruebas, con ella se usa un software especial para controlar y comparar los resultados obtenidos de los esperados, es entonces una verificación repetitiva y automatizada.
 
@@ -531,10 +531,15 @@ Involucra a todos, no solo el tester, todos en el equipo son tester. La persona 
 ### Estrategias Ágiles:
 
 - El testing es de “todo el equipo”
+
 - El testing puede ser independiente
+
 - Integración continua
+
 - Testing guiado por pruebas (Test Driven Development)
+
 - Desarrollo guiado por comportamiento (Behaviour Driven Development)
+
 - Desarrollo guiado por las pruebas de aceptación (Acceptance Test Driven Development)
 
 La finalidad de este es que entre todos puedan pensar como hacer pruebas teniendo distintos entornos y ambientes que se puedan llegar a presentar en una aplicacion cualquier contando con los detalles mas minimos para que el producto tenga todas las caracteristicas donde si hay un sesgo de error no se note con la funcionalidad del producto.
@@ -780,13 +785,13 @@ Los modelos de caja gris es donde se realizan integraciones, viene siendo un pun
 
 ## Clase 18 Roles y Responsabilidades
 
-- Especialista en pruebas manuales: Entre las habilidades que debería de tener, es el pensamiento lateral, en la parte de organización, diseño y documentación, debería de ser el especialista en entender cuáles son los casos de uso que se van a llevar para cada área, debe de poder organizarse y asignar trabajo para sí mismo dependiendo las prioridades del negocio, los riesgos o el impacto.
+- **Especialista en pruebas manuales:** Entre las habilidades que debería de tener, es el pensamiento lateral, en la parte de organización, diseño y documentación, debería de ser el especialista en entender cuáles son los casos de uso que se van a llevar para cada área, debe de poder organizarse y asignar trabajo para sí mismo dependiendo las prioridades del negocio, los riesgos o el impacto.
 
-- Especialista en pruebas técnicas: Esta persona se tiene que encargar de estar siempre actualizada en las herramientas que le permitan acelerar el trabajo, mejorar el trabajo, búsqueda, continuo entrenamiento, ser autodidacta.
+- **Especialista en pruebas técnicas:** Esta persona se tiene que encargar de estar siempre actualizada en las herramientas que le permitan acelerar el trabajo, mejorar el trabajo, búsqueda, continuo entrenamiento, ser autodidacta.
 
-- Líder del equipo de pruebas: Gestiona el equipo y es un facilitador para las actividades a realizar, como apoyar con ambiente de pruebas, darle seguimiento a los defectos, revisar que los lineamientos se sigan.
+- **Líder del equipo de pruebas:** Gestiona el equipo y es un facilitador para las actividades a realizar, como apoyar con ambiente de pruebas, darle seguimiento a los defectos, revisar que los lineamientos se sigan.
 
-- Ingeniero de calidad: Se dedica a la parte del proceso, es quien se encarga de establecer las políticas, mantener involucrados a los equipos, alineados a las prioridades del negocio; además que verifica que todo esto se cumpla sobre todo para la entrega del cliente.
+- **Ingeniero de calidad:** Se dedica a la parte del proceso, es quien se encarga de establecer las políticas, mantener involucrados a los equipos, alineados a las prioridades del negocio; además que verifica que todo esto se cumpla sobre todo para la entrega del cliente.
 
 ## Clase 19 Roles y Responsabilidades en acción 
 
@@ -957,3 +962,108 @@ se deben observar:
 - Verificación sintáctica y lógica
 
 ## Clase 25 Técnicas de depuración
+
+Deben ir cambiando de ser reactivas a ser preventivas. Si ya podemos observar a través de estas herramientas cómo se está utilizando la información, hacia dónde viaja, quién responde, deberíamos también recordar que parte de los principios del testing moderno es tratar de ir corrigiendo nuestras técnicas, implementar mejores prácticas y hacer uso de mejores herramientas. El debugging debería de ser la última alternativa.
+
+**Técnicas de depuración:**
+
+- **Debugging:** Observar valores de variables, detener temporalmente la aplicación.
+
+- **Logs:** Hacer un vaciado de cómo las variables van cambiando y es más fácil rastrear la información.
+
+![assets/img60.png](assets/img60.png)
+
+- **Historial:** Agiliza la forma de monitorear y observar los comportamientos de nuestro software. - Comparando valores, agrupando información.
+
+![assets/img61.png](assets/img61.png)
+
+- **Reportes:** Observar anomalías, acelerar el tiempo de respuesta, prevenir ataques o fallas.
+
+Tenemos Fase 1 para encontrar el error
+
+Fase2 para corregir el error
+
+- **Fase 1: Pasos para depurar:**
+
+    - Ir al módulo que falla
+
+    - Establecer breakpoints
+
+        - En asignacion de valores
+
+        - Procesamiento de valores
+
+        - Cambio de estados
+
+    - Diseñar una matrix de pruebas
+
+    - Establecer los datos de prueba
+
+    - Comenzar a depurar
+
+## Clase 26 Pruebas de verificación
+
+Las pruebas de verificación sirve para confirmar que un cambio se haya hecho o un defecto se haya corregido. Queremos verificar que lo que estamos buscando está en los requerimientos o documentación.
+
+**Pruebas de verificación**
+
+- Tratan de reproducir el escenario fallido con los dato usados. Pero sería un error usar los mismo datos para después asumir que el error fue corregido.
+
+- Se buscan nuevos escenarios donde se utilicen valores relativos. Como Otras plataformas, otros sistemas operativos, otros exploradores, otros dispositivos
+
+**Pruebas de regresión**
+
+- La matrices de pruebas cuando se implementan otros dispositivos u otros exploradores nos ayuda a tenerlos en cuenta nuestros puntos de verificación para que no sufran un impacto.
+
+- La matrix de prueba nos funciona para casos donde no solo vemos los defectos sino que todo lo que ya funciona siga funcionando.
+
+- Nos ayuda a tener una claridad con los casos de prueba claves que pueden ser automatizados.
+
+**Documentación**
+
+Se procura actualizar la documentación: 
+
+- Comentarios en el código
+
+- Documentación técnica
+
+- Pruebas unitarias
+
+- Pruebas específicas
+
+- Matrices de pruebas
+
+- Plan de pruebas
+
+## Clase 27 Automatización de pruebas
+
+![assets/img62.png](assets/img62.png)
+
+En esta unidad vamos a conocer las bases para la automatización de pruebas y podemos automatizar las siguientes tipos de pruebas.
+
+
+- **Pruebas unitarias:** Tienen que ver con un pedazo de código que el desarrollador esta codificando, pero no tienen que ver con todo el flujo de negocio y proceso del software.
+
+- **Pruebas de integración:** Cómo hacemos que el conjunto del equipo que libera pedacitos de software funcionen juntos y no hagan defectos adicionales.
+
+- **Pruebas funcionales o de aceptación:** Estas pruebas no necesariamente forman parte de los requerimientos especificados por el cliente, una recomendación para automatizar estas pruebas es que deban cumplir con los requerimientos dados por el cliente.
+
+- **Test Driven Development:** 
+
+    ![assets/img63.png](assets/img63.png)
+
+    El desarrollo va a estar enfocado haciendo primera las pruebas y después el código. Haciendo que el desarollo sea muy específico con la mayor cobertura y no pongamos líneas de código que no van a funcionar o no se usan.
+
+    - Escribimos una prueba
+
+    - Ejecutamos la prueba: Falla
+
+    - Se escribe el código
+
+    - Ejecutamos la prueba: Pasa
+
+- **Behavior Driven Development:** 
+
+    ![assets/img63.png](assets/img63.png)
+
+    Si primero vamos a escribir las pruebas, debemos hacerlo bien y usando un lenguaje sencillo, simple para que la sirva al equipo para entender qué es lo que queremos hacer.
