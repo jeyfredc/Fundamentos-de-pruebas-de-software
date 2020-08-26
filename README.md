@@ -128,13 +128,13 @@
 
 [Clase 23 Defectos y sugerencias](#Clase-23-Defectos-y-sugerencias)
 
-[]()
+[Clase 24 ¿Qué es la depuración?](#Clase-24-¿Qué-es-la-depuración?)
 
-[]()
+[Beneficiados](#Beneficiados)
 
-[]()
+[Errores](#Errores)
 
-[]()
+[Clase 25 Técnicas de depuración](#Clase-25-Técnicas-de-depuración)
 
 []()
 
@@ -706,24 +706,24 @@ Los modelos de caja negra es cuando por ejemplo en un computador no vemos como f
 
 ### Pruebas de caja negra
 
-- Partición de equivalencia: Que tipo de informacion dentro de los tipos de datos deberia contener por ejemplo un formulario, enteros, flotantes
+- **Partición de equivalencia:** Que tipo de informacion dentro de los tipos de datos deberia contener por ejemplo un formulario, enteros, flotantes
 
-- Valores límite: Establecer limites por ejemplo un maximo de digitos en una fraccion en pesos.
+- **Valores límite:** Establecer limites por ejemplo un maximo de digitos en una fraccion en pesos.
     Que pasa si coloco una fraccion de 90.001 o 90.000.001 o 90.000.00001
 
-- Tabla de decisiones: Aplica para casos donde existen check box o listas y son valores fijos, no le corresponde la opcion de establecer un criterio a los usuarios
+- **Tabla de decisiones:** Aplica para casos donde existen check box o listas y son valores fijos, no le corresponde la opcion de establecer un criterio a los usuarios
 
-- Transición de estados: Como el componente se comporta 
+- **Transición de estados:** Como el componente se comporta 
 
-- Casos de usos: Por ejemplo donde un usario puede llenar un formulario y enviarlo o los campos son obligatorios y no puede pasar al siguiente campo hasta no completar los que son obligatorios
+- **Casos de usos:** Por ejemplo donde un usario puede llenar un formulario y enviarlo o los campos son obligatorios y no puede pasar al siguiente campo hasta no completar los que son obligatorios
 
 Los modelos de caja blanca es llamada en ocasiones caja de cristal, se puede referenciar dentro del desarrollo como la parte del Frontend, donde se puede ver todo lo que hay adentro e incluso es posible ser parte del equipo que esta desarrollando software 
 
 ### Pruebas de caja blanca
 
-- Cobertura de declaración: Es todo aquello que esta dentro del codigo y se pide hacer, es decir que cada linea de codigo realizada se ejecute por lo menos una vez, debe tener una cobertura medible por porcentaje
+- **Cobertura de declaración:** Es todo aquello que esta dentro del codigo y se pide hacer, es decir que cada linea de codigo realizada se ejecute por lo menos una vez, debe tener una cobertura medible por porcentaje
 
-- Cobertura de codigo: Es eliminar todo tipo de codigo que sea innecesario en el producto o proyecto teniendo en cuenta:
+- **Cobertura de codigo:** Es eliminar todo tipo de codigo que sea innecesario en el producto o proyecto teniendo en cuenta:
     
     - Sentencias
 
@@ -735,11 +735,11 @@ Los modelos de caja gris es donde se realizan integraciones, viene siendo un pun
 
 ### Pruebas de caja gris
 
-- Casos de negocios: Como el usuario esta interactuando en el Frontend o la interfaz y como esta respondiendo el producto es decir todo lo que va al Backend, se transforma y de que forma regresa la informacion al Frontend de nuevo. Es decir datos de entrada y salida
+- **Casos de negocios:** Como el usuario esta interactuando en el Frontend o la interfaz y como esta respondiendo el producto es decir todo lo que va al Backend, se transforma y de que forma regresa la informacion al Frontend de nuevo. Es decir datos de entrada y salida
 
-- Pruebas End-to-End: Se refiere por ejemplo a la creacion de un usuario para una aplicacion pero no necesariamente se tiene que ver como quedo en la salida y posiblemente no se vea el resultado pero se visualiza en otro entorno
+- **Pruebas End-to-End:** Se refiere por ejemplo a la creacion de un usuario para una aplicacion pero no necesariamente se tiene que ver como quedo en la salida y posiblemente no se vea el resultado pero se visualiza en otro entorno
 
-- Pruebas de integración: Es ver como se estan transmitiendo los datos del Frontend al Backend 
+- **Pruebas de integración:** Es ver como se estan transmitiendo los datos del Frontend al Backend 
 
 
 ![assets/img37.png](assets/img37.png)
@@ -750,31 +750,31 @@ Los modelos de caja gris es donde se realizan integraciones, viene siendo un pun
 
 ### Planeacion de pruebas
 
-- Planeación: Definir los objetivos de las pruebas es muy importante, al no tener una estrategia clara termina causando una pobre cobertura de pruebas. Los elementos a considerar para una buena planeación son la estimación, recursos, el alcance y objetivo.
+- **Planeación:** Definir los objetivos de las pruebas es muy importante, al no tener una estrategia clara termina causando una pobre cobertura de pruebas. Los elementos a considerar para una buena planeación son la estimación, recursos, el alcance y objetivo.
 
 ![assets/img39.png](assets/img39.png)
 
-- Monitoreo y Control: Durante el monitoreo lo que estamos buscando son esas métricas que nos digan si estamos llevando avances o tenemos retrasos. Son nuestras alertas cuando nuestro plan no se esta ejecutando.
+- **Monitoreo y Control:** Durante el monitoreo lo que estamos buscando son esas métricas que nos digan si estamos llevando avances o tenemos retrasos. Son nuestras alertas cuando nuestro plan no se esta ejecutando.
 
 ![assets/img40.png](assets/img40.png)
 
-- Análisis: Incluye decidir cuáles son esas prioridades que nos ayudará a definir qué debemos probar.
+- **Análisis:** Incluye decidir cuáles son esas prioridades que nos ayudará a definir qué debemos probar.
 
 ![assets/img41.png](assets/img41.png)
 
-- Diseño: Normalmente cuándo estas iniciando las pruebas es necesario crear un mapa de ideas. Después de esto, puedes realizar el diseño a detalle de qué va a incluir cada caso de uso. Casos de alto nivel, diseñar y priorizar pruebas, identificar el entorno de pruebas, hacer una trazabilidad entre pruebas y sus condiciones.
+- **Diseño:** Normalmente cuándo estas iniciando las pruebas es necesario crear un mapa de ideas. Después de esto, puedes realizar el diseño a detalle de qué va a incluir cada caso de uso. Casos de alto nivel, diseñar y priorizar pruebas, identificar el entorno de pruebas, hacer una trazabilidad entre pruebas y sus condiciones.
 
 ![assets/img42.png](assets/img42.png)
 
-- Implementación: También nos aseguramos de contar con la estructura necesaria para realizar las pruebas, con un ambiente, datos y dónde documentar o realizar las pruebas.
+- **Implementación:** También nos aseguramos de contar con la estructura necesaria para realizar las pruebas, con un ambiente, datos y dónde documentar o realizar las pruebas.
 
 ![assets/img43.png](assets/img43.png)
 
-- Ejecución: En esta etapa los suites de pruebas se ejecutan de acuerdo al programa o el plan diseñado con anterioridad. Se suelen agrupar los casos de pruebas para que no estén desorganizado y podemos hacerles un buen seguimiento.
+- **Ejecución:** En esta etapa los suites de pruebas se ejecutan de acuerdo al programa o el plan diseñado con anterioridad. Se suelen agrupar los casos de pruebas para que no estén desorganizado y podemos hacerles un buen seguimiento.
 
 ![assets/img44.png](assets/img44.png)
 
-- Finalización: Cuando queremos cerrar el ciclo de las pruebas, necesitamos saber qué porcentaje se cubrió, ejecutó, cuántos defectos se derivaron, aprender lecciones sobre el proceso.
+- **Finalización:** Cuando queremos cerrar el ciclo de las pruebas, necesitamos saber qué porcentaje se cubrió, ejecutó, cuántos defectos se derivaron, aprender lecciones sobre el proceso.
 
 ![assets/img45.png](assets/img45.png)
 
@@ -798,13 +798,13 @@ Independientemente del rol, un tester participa de todas las etapas del proceso 
 
 Cuando el esfuerzo en la calidad se enfoca y se distribuye en roles y responsabilidades podemos encontrar que la mayoría de las empresas manejan los siguientes roles:
 
-*El tester manual*, se enfoca en la estrategia, definición, ejecución y cobertura de pruebas para cumplir los requerimientos, echando mano de cualquier técnica para obtener información suficiente y así cumplir con las asignaciones correspondientes.
+**El tester manual**, se enfoca en la estrategia, definición, ejecución y cobertura de pruebas para cumplir los requerimientos, echando mano de cualquier técnica para obtener información suficiente y así cumplir con las asignaciones correspondientes.
 
-*El tester técnico*, trabaja muy de cerca con el tester manual, mientras que el tester manual define las pruebas, el tester técnico acelera la capacidad de ejecución de las pruebas. Esto lo hace implementando herramientas que permitan la automatización de pruebas, o la correcta selección de datos de pruebas, o el monitoreo de la ejecución de las pruebas.
+**El tester técnico**, trabaja muy de cerca con el tester manual, mientras que el tester manual define las pruebas, el tester técnico acelera la capacidad de ejecución de las pruebas. Esto lo hace implementando herramientas que permitan la automatización de pruebas, o la correcta selección de datos de pruebas, o el monitoreo de la ejecución de las pruebas.
 
-*El líder de pruebas*, generalmente dentro de sus responsabilidad es volverse un facilitador de servicios, información y herramientas para el equipo de pruebas, para poder estimar presupuestos, recursos y tiempos respecto al plan de desarrollo de software.
+**El líder de pruebas**, generalmente dentro de sus responsabilidad es volverse un facilitador de servicios, información y herramientas para el equipo de pruebas, para poder estimar presupuestos, recursos y tiempos respecto al plan de desarrollo de software.
 
-*El Ingeniero de calidad*, ya no solamente está al pendiente del producto y los procesos, comienza a involucrarse más con el negocio, ayudando tanto a testers como cualquier otro miembro del equipo a llevar cabo pruebas que reduzcan, en todas las etapas del ciclo de vida del software, el error humano.
+**El Ingeniero de calidad**, ya no solamente está al pendiente del producto y los procesos, comienza a involucrarse más con el negocio, ayudando tanto a testers como cualquier otro miembro del equipo a llevar cabo pruebas que reduzcan, en todas las etapas del ciclo de vida del software, el error humano.
 
 ## Clase 20 Ejercicios
 
@@ -822,11 +822,11 @@ Otra forma es analizando los resultados de las pruebas. Es ver cuantas de ellas 
 
 El desempeño del testing, Que circunstancias permiten o no realizar el trabajo, como por ejemplo el que una persona no vaya un dia al trabajo, el cliente no entregue alguna especificacion, el equipo no es adecuado, se fue el internet.
 
-*¿Cuando sucede el retrabajo?*
+**¿Cuando sucede el retrabajo?**
 
 ![assets/img48.png](assets/img48.png)
 
-*Retrabajo:* Es la principal causa del retraso, de que la estimación de tiempo falle, de que costos suban. Cuando estos suceden aumentamos exponencialmente el trabajo de todos
+**Retrabajo:** Es la principal causa del retraso, de que la estimación de tiempo falle, de que costos suban. Cuando estos suceden aumentamos exponencialmente el trabajo de todos
 
 - Falta o mala documentación
 
@@ -836,7 +836,7 @@ El desempeño del testing, Que circunstancias permiten o no realizar el trabajo,
 
 - Falta de comunicación
 
-*Herramienta Diagrama de Gantt*
+**Herramienta Diagrama de Gantt**
 
 https://www.easyredmine.com/
 
@@ -844,7 +844,7 @@ https://www.easyredmine.com/
 
 La mala administración, malas prácticas o falta de seguimiento entorpece las tareas de todo el equipo sino que además si sumamos el retrabajo en la mala documentación puede que nuestro proyecto se salga de presupuesto o tiempo.
 
-*Razones por las que aparecen defectos:*
+**Razones por las que aparecen defectos:**
 
 - Hay presión de tiempo en la entrega del software
 
@@ -858,7 +858,7 @@ La mala administración, malas prácticas o falta de seguimiento entorpece las t
 
 - Desconocimiento de las tecnologías usadas
 
-*Preguntas a realizar para construir un proceso de gestión de bugs:*
+**Preguntas a realizar para construir un proceso de gestión de bugs:**
 
 - ¿Qué debe de hacer la persona que encuentre el defecto?
 
@@ -889,3 +889,71 @@ La mala administración, malas prácticas o falta de seguimiento entorpece las t
 Se debe tener en cuenta que la persona debe ser responsable y reportar o abrir nuevos casos o tickets para que se trabaje eficientemente en los cambios y no significa que se deba agregar algo mas de lo solicitado, si no unicamente trabajar en el reporte y comuunicar eficientemente los cambios para que sean revisados por el equipo o el lider del proceso
 
 ## Clase 23 Defectos y sugerencias
+
+**Defectos**
+
+Es aquello que no cumple los requerimientos funcionales, de diseño, arquitectura y es la consecuencia de un error humano o intepretacion con la cual se construyo un software
+
+**Sugerencia**
+
+Como la experiencia del usuario se ve afectada, colores, navegacion lenta, lenguaje, cultura etc.
+
+![assets/img51.png](assets/img51.png)
+
+![assets/img52.png](assets/img52.png)
+
+**Cómo reportar un defecto/sugerencia**
+
+para este caso se establece un ejemplo de un mensaje de error que le aparece a un usuario que se esta registrando y probablemente ya habia hecho un registro anterior pero el mensaje que le esta saliendo al usuario es erroneo y no es el esperado
+
+![assets/img53.png](assets/img53.png)
+
+Se debe tener la plantilla para realizar el reporte
+
+![assets/img55.png](assets/img55.png)
+
+En este caso se toma un Screenshot para ampliar la informacion que se esta comunicando
+
+![assets/img54.png](assets/img54.png)
+
+se pueden tomar datos de donde proviene la informacion que se esta reportando
+
+![assets/img56.png](assets/img56.png)
+
+Tambien se pueden añadir campos de ser necesarios a la plantilla de reporte para documentar el caso reportado
+
+![assets/img57.png](assets/img57.png)
+
+## Clase 24 ¿Qué es la depuración?
+
+Hacer testing o depuración son dos actividades diferentes. Mientras el testing sirven para encontrar defectos, la depuración nos permitirá entender por qué esta sucediendo este defecto y que actividades están implicadas en el. Ambas pueden ir de la mano y son muy importantes.
+
+**Debugger:** Es una herramienta que nos ayuda a encontrar todos estos errores ya sea de sintaxis, advertencias de seguridad, etc. Nos permite ejecutar línea por línea, detener la ejecución temporalmente, visualizar el contenido de las variables, cambiar el valor del entorno de ejecución para poder ver el efecto de una corrección en el programa.
+
+### Beneficiados
+
+- **Programador:** Requiere cada vez que programa ir depurando lo que ejecuta y escriba para que cumpla con su objetivo
+
+- **Tester:** Le ayuda a reducir el tiempo de análisis que después puede ser asignado para el desarrollador
+
+- **Analista:** Puede ser para analisis de encontrar información de un historial sobre cómo se comporta un sistema.
+
+- **Objetivo:** Vamos a analizar cómo se comporta el sistema, cómo se transfieren los datos, cómo se procesa la información. Tenemos la capacidad de tener nuestro código en cualquier momento para conocer cómo funciona.
+
+### Errores
+
+Aunque se realice depuración existe probabilidad de encontrar defectos
+
+![assets/img58.png](assets/img58.png)
+
+![assets/img59.png](assets/img59.png)
+
+se deben observar:
+
+- Mensajes de advertencia
+
+- Estándares de compilación
+
+- Verificación sintáctica y lógica
+
+## Clase 25 Técnicas de depuración
