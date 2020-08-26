@@ -116,17 +116,17 @@
 
 [Planeacion de pruebas](#Planeacion-de-pruebas)
 
-[]()
+[Clase 18 Roles y Responsabilidades](#Clase-18-Roles-y-Responsabilidades)
 
-[]()
+[Clase 19 Roles y Responsabilidades en acción ](#Clase-19-Roles-y-Responsabilidades-en-acción)
 
-[]()
+[Clase 20 Ejercicios](#Clase-20-Ejercicios)
 
-[]()
+[Clase 21 Retrabajo](#Clase-21-Retrabajo)
 
-[]()
+[Clase 22 Sistema de seguimiento de bugs](#Clase-22-Sistema-de-seguimiento-de-bugs)
 
-[]()
+[Clase 23 Defectos y sugerencias](#Clase-23-Defectos-y-sugerencias)
 
 []()
 
@@ -777,3 +777,115 @@ Los modelos de caja gris es donde se realizan integraciones, viene siendo un pun
 - Finalización: Cuando queremos cerrar el ciclo de las pruebas, necesitamos saber qué porcentaje se cubrió, ejecutó, cuántos defectos se derivaron, aprender lecciones sobre el proceso.
 
 ![assets/img45.png](assets/img45.png)
+
+## Clase 18 Roles y Responsabilidades
+
+- Especialista en pruebas manuales: Entre las habilidades que debería de tener, es el pensamiento lateral, en la parte de organización, diseño y documentación, debería de ser el especialista en entender cuáles son los casos de uso que se van a llevar para cada área, debe de poder organizarse y asignar trabajo para sí mismo dependiendo las prioridades del negocio, los riesgos o el impacto.
+
+- Especialista en pruebas técnicas: Esta persona se tiene que encargar de estar siempre actualizada en las herramientas que le permitan acelerar el trabajo, mejorar el trabajo, búsqueda, continuo entrenamiento, ser autodidacta.
+
+- Líder del equipo de pruebas: Gestiona el equipo y es un facilitador para las actividades a realizar, como apoyar con ambiente de pruebas, darle seguimiento a los defectos, revisar que los lineamientos se sigan.
+
+- Ingeniero de calidad: Se dedica a la parte del proceso, es quien se encarga de establecer las políticas, mantener involucrados a los equipos, alineados a las prioridades del negocio; además que verifica que todo esto se cumpla sobre todo para la entrega del cliente.
+
+## Clase 19 Roles y Responsabilidades en acción 
+
+Independientemente del rol, un tester participa de todas las etapas del proceso de desarrollo de software, colaborando para asegurar la máxima calidad del producto. Su perfil conjuga un conjunto de habilidades con el conocimiento del negocio, de la aplicación bajo prueba y de cómo planificar, diseñar, ejecutar y administrar las pruebas.
+
+“Un tester investiga un producto de software con el objetivo de obtener información acerca de su calidad y del valor que representa para quienes lo utilizan”
+
+![assets/img46.png](assets/img46.png)
+
+Cuando el esfuerzo en la calidad se enfoca y se distribuye en roles y responsabilidades podemos encontrar que la mayoría de las empresas manejan los siguientes roles:
+
+*El tester manual*, se enfoca en la estrategia, definición, ejecución y cobertura de pruebas para cumplir los requerimientos, echando mano de cualquier técnica para obtener información suficiente y así cumplir con las asignaciones correspondientes.
+
+*El tester técnico*, trabaja muy de cerca con el tester manual, mientras que el tester manual define las pruebas, el tester técnico acelera la capacidad de ejecución de las pruebas. Esto lo hace implementando herramientas que permitan la automatización de pruebas, o la correcta selección de datos de pruebas, o el monitoreo de la ejecución de las pruebas.
+
+*El líder de pruebas*, generalmente dentro de sus responsabilidad es volverse un facilitador de servicios, información y herramientas para el equipo de pruebas, para poder estimar presupuestos, recursos y tiempos respecto al plan de desarrollo de software.
+
+*El Ingeniero de calidad*, ya no solamente está al pendiente del producto y los procesos, comienza a involucrarse más con el negocio, ayudando tanto a testers como cualquier otro miembro del equipo a llevar cabo pruebas que reduzcan, en todas las etapas del ciclo de vida del software, el error humano.
+
+## Clase 20 Ejercicios
+
+https://platzi.com/clases/1421-pruebas-software/15106-ejercicios8293/
+
+## Clase 21 Retrabajo 
+
+![assets/img47.png](assets/img47.png)
+
+Es necesario identificar cada uno de los roles y responsabilidades para después evaluar si se esta haciendo o no re trabajo, es decir estamos utilizando tiempo que podría ser utilizado en otras actividades o sencillamente que no debería hacerse
+
+También es necesario medir el rendimiento de nuestro trabajo y herramientas que nos permitan conocer paso a paso cómo vamos avanzado en el proceso de manera individual o en equipo.
+
+Otra forma es analizando los resultados de las pruebas. Es ver cuantas de ellas se han ejecutado, cuantas no han pasado, cuantas derivaron defectos o que no le permitio continuar el traajo.
+
+El desempeño del testing, Que circunstancias permiten o no realizar el trabajo, como por ejemplo el que una persona no vaya un dia al trabajo, el cliente no entregue alguna especificacion, el equipo no es adecuado, se fue el internet.
+
+*¿Cuando sucede el retrabajo?*
+
+![assets/img48.png](assets/img48.png)
+
+*Retrabajo:* Es la principal causa del retraso, de que la estimación de tiempo falle, de que costos suban. Cuando estos suceden aumentamos exponencialmente el trabajo de todos
+
+- Falta o mala documentación
+
+- Falta de capacitación o dominio en las herramientas utilizadas
+
+- Falta de capacitación o dominio en el software a desarrollar
+
+- Falta de comunicación
+
+*Herramienta Diagrama de Gantt*
+
+https://www.easyredmine.com/
+
+## Clase 22 Sistema de seguimiento de bugs
+
+La mala administración, malas prácticas o falta de seguimiento entorpece las tareas de todo el equipo sino que además si sumamos el retrabajo en la mala documentación puede que nuestro proyecto se salga de presupuesto o tiempo.
+
+*Razones por las que aparecen defectos:*
+
+- Hay presión de tiempo en la entrega del software
+
+- Descuidos en el diseño
+
+- Inexperiencia o falta de conocimiento
+
+- Falta de comunicación en los requerimientos
+
+- Diseño complejo de código
+
+- Desconocimiento de las tecnologías usadas
+
+*Preguntas a realizar para construir un proceso de gestión de bugs:*
+
+- ¿Qué debe de hacer la persona que encuentre el defecto?
+
+- ¿En qué herramienta debe documentar el defecto?
+
+- ¿Cómo vamos a almacenar la información?
+
+- ¿Qué información requiere el equipo de desarrollo para poder resolver un defecto?
+
+- ¿Cuáles son los estatus que se manejan para que fluya la resolución del defecto?
+
+- ¿Cuáles son los criterios de aceptación de cierre del defecto?
+
+![assets/img48.png](assets/img49.png)
+
+- El ciclo de gestion comienza con el reporte, es revisado y se considera en estatus abierto porque aun no ha sido resuelto
+
+- Una vez se define que se va a reparar se asigna un desarrollador para atender el caso
+
+- Cuando se repara el estatus pasa a arreglado
+
+- Si la confirmacion es exitosa se cierra el caso
+
+- Si ocurre un defecto nuevamente pasa al ciclo de gestión nuevamente y dependiendo el caso se reescribe el reporte y se analiza si debe ser aceptado, rechazado o se puede tomar como una sugerencia, luego pasa a estatus reabierto y nuevamente se trabaja sobre la reparacion del reporte y posteriormente en caso que la confirmacion se exitosa, nuevamente se cierra el caso
+
+![assets/img50.png](assets/img50.png)
+
+Se debe tener en cuenta que la persona debe ser responsable y reportar o abrir nuevos casos o tickets para que se trabaje eficientemente en los cambios y no significa que se deba agregar algo mas de lo solicitado, si no unicamente trabajar en el reporte y comuunicar eficientemente los cambios para que sean revisados por el equipo o el lider del proceso
+
+## Clase 23 Defectos y sugerencias
