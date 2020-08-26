@@ -68,7 +68,37 @@
 
 [Clase 11 Testing ágil](#Clase-11-Testing-ágil)
 
-[]()
+[Estrategias Ágiles:](#Estrategias-Ágiles)
+
+[Clase 12 Niveles de pruebas](#Clase-12-Niveles-de-pruebas)
+
+[Nivel de pruebas de componentes](#Nivel-de-pruebas-de-componentes)
+
+[Pruebas de integración](#Pruebas-de-integración)
+
+[Prueba de sistema](#Prueba-de-sistema)
+
+[Pruebas de aceptación](#Pruebas-de-aceptación)
+
+[Clase 13 Tipos de pruebas](#Clase-13-Tipos-de-pruebas)
+
+[Pruebas funcionales](#Pruebas-funcionales)
+
+[Pruebas no funcionales](#Pruebas-no-funcionales)
+
+[Pruebas estructurales](#Pruebas-estructurales)
+
+[Prueba de manejo de cambios](#Prueba-de-manejo-de-cambios)
+
+[Clase 14 Pruebas estáticas y dinámicas](#Clase-14-Pruebas-estáticas-y-dinámicas)
+
+[¿Qué son los elementos?](#¿Qué-son-los-elementos?)
+
+[Beneficios](#Beneficios)
+
+[Herramientas para realizar mockups](#Herramientas-para-realizar-mockups)
+
+[Clase 15 Definición y diseño de pruebas](#Clase-15-Definición-y-diseño-de-pruebas)
 
 []()
 
@@ -76,7 +106,7 @@
 
 []()
 
-
+[]()
 ## Clase 1 Introducción
 
 En este curso veremos diferentes formas, tips y estrategias de realizar pruebas de software. Todas las técnicas te ayudarán a mejorar la calidad de tu software.
@@ -448,3 +478,146 @@ Sin embaro, se trata de un checking repetitivo y automatizado.
 
 ## Clase 11 Testing ágil
 
+![assets/img27.png](assets/img27.png)
+
+Involucra a todos, no solo el tester, todos en el equipo son tester. La persona con este rol se aseguran de la mayor cobertura de pruebas tomando en cuenta todas las necesidades que cada uno de los miembros del equipo también esta intentando hacer que funcione. El tester tiene que definir si se esta cumpliendo con los requerimientos funciones y los del equipo, al final, sera el apoyo que dara dando retroalimentacion y viendo como puede dar funcionalidad para tener finalmente un proyecto o servicio optimo.
+
+### Estrategias Ágiles:
+
+- El testing es de “todo el equipo”
+- El testing puede ser independiente
+- Integración continua
+- Testing guiado por pruebas (Test Driven Development)
+- Desarrollo guiado por comportamiento (Behaviour Driven Development)
+- Desarrollo guiado por las pruebas de aceptación (Acceptance Test Driven Development)
+
+La finalidad de este es que entre todos puedan pensar como hacer pruebas teniendo distintos entornos y ambientes que se puedan llegar a presentar en una aplicacion cualquier contando con los detalles mas minimos para que el producto tenga todas las caracteristicas donde si hay un sesgo de error no se note con la funcionalidad del producto.
+
+## Clase 12 Niveles de pruebas
+
+Es ver las estrategias de como poder probar elementos por capas, componentes, niveles de estructura, etc.
+
+Como separar las pruebas para que la cobertura que vayamos teniendo tenga una mejor descripcion, comprension y en la parte de desarrollo sea mas complementaria, pasando de los componentes, a la integracion y pruebas totales
+
+### Nivel de pruebas de componentes
+
+Los componentes son aquellas pequeñas cosas que se pueden ver por ejemplo cuando uno ve un video y esta el boton de play, pausa, like, etc. Pueden ser tambien componentes del formulario 
+
+### Pruebas de integración
+
+Una aplicación tiene una serie de componentes que trabajando juntos forman un pequeño sistema, pero cuando tienes varios de estos sistemas necesitas integrarlos entre ellos, como desde el inicio hasta el final de un flujo de negocio todos los componentes se comunican, como entran y salen los datos.
+
+### Prueba de sistema 
+
+Esta parte incluye que estás tomando en cuenta el contexto, no es lo mismo tener las mismas pruebas para iOS, Android, Web, etc.
+
+### Pruebas de aceptación 
+
+Si ya probamos que nuestro elemento o acción funcionan, estás pruebas nos aseguran con o sin el cliente que tiene cubierta todas las necesidades requeridas en el software. Es la última verificación.
+
+## Clase 13 Tipos de pruebas
+
+Necesitamos tener otra clasificación adicional. En los niveles sabemos la profundidad de las pruebas, pero en los tipos independientemente de su profundidad son las técnicas que vamos a usar para encontrar los defectos.
+
+### Pruebas funcionales 
+
+Cómo funciona un sistema, qué debe estar haciendo, cómo está interactuando el usuario con él.
+
+### Pruebas no funcionales 
+
+El usuario puede estar experimentando otro tipo de cosas que aún funcionando puede tener la sensación de lentitud, falta de legibilidad o claridad. Esas características de usabilidad están asociadas a estas pruebas.
+
+### Pruebas estructurales 
+
+Tienen que ver con la tecnología y el stack usado para construir nuestro producto. Nos tenemos que asegurarnos que nuestra base de datos o servidor funcionen de la manera correcta. Son conocidas como pruebas de caja blanca.
+
+### Prueba de manejo de cambios 
+
+Es probar nuevamente un componente ya probado para verificar que no ha sido impactado por actualizaciones.
+
+Estas serian la clasificacion de actividades de cuando se prueba en el Frontend, Backend o la estructura, en base a cambios, nuevas caracteristicas o cuando se estan arreglando defectos
+
+## Clase 14 Pruebas estáticas y dinámicas
+
+Generalmente se espera que el tester siempre este ejecutando pruebas pero muchas veces, las pruebas estaticas no son consideradas durante el desarrollo porque este tipo de pruebas incluyen que se este leyendo documentación, analizando software, comparando, haciendo un planteamiento diseñando el plan de pruebas
+
+![assets/img28.png](assets/img28.png)
+
+![assets/img29.png](assets/img29.png)
+
+### ¿Qué son los elementos?
+
+- Contratos, planes y calendario del proyecto, asi como su presupuesto.
+
+- El análisis de requerimientos
+
+- Especificaciones o regras de negocio
+
+    - Tecnicos
+
+    - Seguridad 
+
+
+Es cuestionar que elementos a lo mejor no esta incluyendo el cliente y el tester esta para preguntar qué, como, de que manera, debe hacer el desarrollador para incluir elementos que no se estan especificando en un principio pero que van a ser necesarios en la funcionalidad del producto que esta solicitando el cliente 
+
+- Las definiciones de 
+
+    - Historias del usuario
+
+    - Criterios de aceptacion
+
+    - Mockups
+
+- El diseño de la arquitectura
+
+- Las pruebas (Testware), puntos de verificacion, (Pruebas clave)
+
+- Guias de usuario
+
+- Evaluación/revisión del código
+
+### Beneficios
+
+- Detectar y corregir defectos de manera más eficiente
+
+- Identificar y priorizar la ejecución de pruebas en etapas posteriores
+
+- Prevenir defectos
+
+    - Que no son fácilmente detedectables durante las pruebas dinámicas
+
+    - Durante la etapa de análisis y diseño
+
+- Cubrir aspectos como:
+
+    - Inconsistencias, ambigûedades, contradicciones, definiciones inexactas, requerimientos redundantes
+
+- Reducir el retrabajo e incrementar la productividad
+
+- Reducir el costo y el tiempo
+
+- Mejorando la comunicación entre todos los miembros del equipo
+
+### Herramientas para realizar mockups
+
+- Gliffy https://www.gliffy.com/
+
+![assets/img30.png](assets/img30.png)
+
+- Cacoo https://cacoo.com/
+
+![assets/img31.png](assets/img31.png)
+
+- Mockflow https://www.mockflow.com/
+
+![assets/img32.png](assets/img32.png)
+
+- Frame Box http://framebox.org/
+
+![assets/img33.png](assets/img33.png)
+
+- Wireframe cc https://wireframe.cc/ 
+
+![assets/img34.png](assets/img34.png)
+
+## Clase 15 Definición y diseño de pruebas
