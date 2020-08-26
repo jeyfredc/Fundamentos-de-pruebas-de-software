@@ -772,7 +772,7 @@ Los modelos de caja gris es donde se realizan integraciones, viene siendo un pun
 
 - Ejecución: En esta etapa los suites de pruebas se ejecutan de acuerdo al programa o el plan diseñado con anterioridad. Se suelen agrupar los casos de pruebas para que no estén desorganizado y podemos hacerles un buen seguimiento.
 
-![assets/img44.png](assets/img4.png)
+![assets/img44.png](assets/img44.png)
 
 - Finalización: Cuando queremos cerrar el ciclo de las pruebas, necesitamos saber qué porcentaje se cubrió, ejecutó, cuántos defectos se derivaron, aprender lecciones sobre el proceso.
 
