@@ -621,3 +621,15 @@ Es cuestionar que elementos a lo mejor no esta incluyendo el cliente y el tester
 ![assets/img34.png](assets/img34.png)
 
 ## Clase 15 Definición y diseño de pruebas
+
+### ¿Qué hace un tester?
+
+1. Encontrar problemas
+
+2. Documentar problemas
+
+3. Comunicar problemas
+
+![assets/img35.png](assets/img35.png)
+
+Si cuando encuentra problemas no sabe documentar y reproducir los pasos correctos su testing genera retrabajo y sube el costo
