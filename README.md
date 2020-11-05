@@ -1081,6 +1081,6 @@ ___
 
 ## ¿Quieres conocer mas proyectos?
 
-Puedes visualizar mi portafolio en el siguiente enlace https://jeyfredc.github.io/Portafolio/Css-Portafolio/
+Puedes visualizar mi portafolio en el siguiente enlace https://jeyfredc.github.io/Portafolio/
 
 ![assets/img-portafolio.png](assets/img-portafolio.png)
